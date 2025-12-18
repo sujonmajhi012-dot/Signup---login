@@ -21,7 +21,7 @@ function Home() {
      }
      const fetchProduct= async ()=>{
       try{
-        const url="http://localhost:3003/product/";
+        const url="https://signup-login-api-three.vercel.app/product/";
         const headers={
           method:"GET",
           headers:{
