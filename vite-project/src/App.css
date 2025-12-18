@@ -1,0 +1,63 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+label{
+    font-size: 18px;
+}
+html,body{
+    height:100%;
+    width:100%
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(76, 230, 230);
+}
+.container{
+    background-color: #fff;
+    padding: 32px 48px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+.container>h1{
+    margin-bottom: 20px;
+}
+.container > form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.container div{
+    display: flex;
+    flex-direction: column;
+}
+.container input{
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.container input::placeholder{
+    font-size: 10px;
+    font-style: italic;
+}
+.container button{
+    background-color:purple;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
