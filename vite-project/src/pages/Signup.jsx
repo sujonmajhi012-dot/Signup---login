@@ -27,7 +27,7 @@ function Signup() {
       return handleError('name,email and password are required !');
     }
     try{
-    const url="https://signup-login-api-three.vercel.app/auth/signup";
+    const url="https://signup-login-api-seven.vercel.app/auth/signup";
     const response = await fetch(url,
         {
           method:"POST",
